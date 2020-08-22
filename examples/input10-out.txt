@@ -1,0 +1,1 @@
+edge in S (c,x) alpha [0,5]; edge in G (c,v) beta [0,5]; h 0

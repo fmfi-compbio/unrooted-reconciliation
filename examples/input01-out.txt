@@ -1,0 +1,7 @@
+edge in S (x1,a) alpha [0,1]; edge in G (u1,a) beta [0,1]; h 0
+edge in S (b,x1) alpha [0,1]; edge in G (b,u1) beta [0,1]; h 0
+edge in S (x2,x1) alpha [0,1]; edge in G (u2,u1) beta [0,1]; h 0
+edge in S (c,x2) alpha [0,1]; edge in G (c,u2) beta [0,1]; h 0
+edge in S (x3,x2) alpha [0,1]; edge in G (u3,u2) beta [0,1]; h 0
+edge in S (d,x3) alpha [0,1]; edge in G (d,u3) beta [0,1]; h 0
+edge in S (e,x3) alpha [0,1]; edge in G (e,u3) beta [0,1]; h 0
