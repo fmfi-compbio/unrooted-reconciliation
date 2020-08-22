@@ -13,10 +13,8 @@ The implementation has the following limitations:
 * It is assumed that preprocessing was already done, i.e. that the two trees have the same set of leaves, all internal nodes of the species tree have degree three, all internal nodes of the gene tree have degree at least three, all edge lengths are non-negative and the gene tree does not contain zero-length edges.
 * The trees have at least two leaves each
 * LCA computation is assumed in the algorithm to work in O(1) time, but only trivial O(n) implementation is provided in the code.
-* For simplicity, the implementation frequently uses dctionaries; this could be avoided by numbering nodes and edges by 0,1,... and using direct adressing instead of hashing
+* For simplicity, the implementation frequently uses dictionaries; this could be avoided by numbering nodes and edges by 0,1,... and using direct addressing instead of hashing
 
 Examples of input and output files are in the examples folder.
 
-All internal nodes of tree S have degree three; S may have zero-length edges.
-3. All internal nodes of tree G have degree at least three and bounded from above by some constant
-c; all edges of G have strictly positive lengths.
+Running python3 reconcilation.py will run the algorithm on all input files in examples folder and rewrite the output files contained therein.
